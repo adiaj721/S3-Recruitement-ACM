@@ -1,0 +1,10 @@
+The goal of this task was to get hands-on experience with Git and version control by completing challenges on gitmastery.me at both the Beginner and Advanced difficulty levels, earning a total of 300 points
+Worked through all Beginner level challenges covering core Git commands
+Progressed to Advanced level challenges covering branching, merging, rebasing, and resolving conflicts.
+What I Learned:
+Version control fundamentals — I now understand why Git is essential for development. It acts as a complete history of a project, letting you revert to any previous state, track who changed what and when, and safely experiment without breaking working code.
+The staging area — I learned that Git has three areas: the working directory (your files), the staging area (what will go into the next commit), and the repository (saved history). Running git add moves changes to staging; git commit saves staging to history.
+Branching and merging — Branches let you work on a feature in isolation without affecting the main codebase. Once the feature is complete and tested, you merge it back. This is how all professional teams collaborate — each developer works on their own branch.
+Meaningful commit messages — I practised writing clear, descriptive commit messages (e.g. "Add delete functionality to todo app" instead of "update"). Good commit history acts as documentation for the entire project.
+Resolving merge conflicts — When two branches modify the same part of a file, Git cannot automatically merge them. I learned to manually open the conflicting file, decide which changes to keep, and complete the merge.
+Remote vs local — Local is your computer; remote is Github. git push syncs local to remote, git pull syncs remote to local. This is how teams share code.
